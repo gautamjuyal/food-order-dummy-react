@@ -1,0 +1,46 @@
+.meal-component{
+    background: rgb(67,67,67);
+    color: white;
+    list-style-type: none;
+    padding: 1rem 2rem;
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+
+.name{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+
+}
+
+.desc{
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.price{
+    display:flex;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.form{
+width: 20%;
+    display:flex;
+    justify-content: right;
+}

@@ -1,0 +1,30 @@
+.meal-item-form{
+    display:flex;
+    gap: 1px;
+}
+
+.meal-item-form button{
+    width: 2rem;
+    height: 2rem;
+    border: 0px;
+}
+
+.meal-item-form button:first-of-type{
+    border-radius: 10px 0 0 10px;
+}
+
+.meal-item-form button:last-of-type{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.meal-item-form span{
+    width: 3rem;
+    background: white;
+    color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    border-radius: 3px;
+    font-weight: 500;
+}
